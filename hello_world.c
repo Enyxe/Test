@@ -12,6 +12,29 @@ void main() {
     printf("Hello, world!");
 }
 
+
+void main() {
+
+    setInfo("Audi");
+    printf("Hello, world!");
+}
+
+
+
+void main() {
+
+    setInfo("Audi");
+    printf("Hello, world!");
+}
+
+
+void main() {
+
+    setInfo("Audi");
+    printf("Hello, world!");
+}
+
+
 void main() {
 
     setInfo("Audi");
