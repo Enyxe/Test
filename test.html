@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /*class Student {
+            ecole = 'Jules ferry'
+
+            constructor (firstname, lastname) {
+                console.log
+            }
+        }
+
+
+
+
+        const john = new Student('John', 'Doe')
+        console.log(john)*/
+
+        class Voiture {  
+
+            
+
+
+            constructor(marque, modele, annee) {
+                this.marque = marque;
+                this.modele = modele;
+                this.annee = annee;
+            }
+
+            setInfo(marque, modele, annee) {
+                this.marque = marque;
+                this.modele = modele;
+                this.annee = annee;
+            }
+
+            afficherInfo() {
+                console.log(`Ma voiture est une ${this.marque} ${this.modele} de ${this.annee}.`)
+            }
+
+
+
+        }
+
+        const voiture1 = new Voiture("Audi", "A3", 2020);
+
+        voiture1.afficherInfo()
+        
+    </script>
+    
+</body>
+</html>
